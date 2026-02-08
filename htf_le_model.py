@@ -69,7 +69,7 @@ iso_preds_binary = np.where(iso_preds == 1, 0, 1)
 final_preds = np.logical_or(ae_preds, iso_preds_binary).astype(int)
 
 # -----------------------------------------------------------------
-# STAGE 4: Main Execution & Evaluation
+# STAGE 4: Evaluation
 # -----------------------------------------------------------------
 
 
@@ -83,4 +83,5 @@ plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.title('Confusion Matrix: HTF-LE Model')
 plt.show()
+
 
