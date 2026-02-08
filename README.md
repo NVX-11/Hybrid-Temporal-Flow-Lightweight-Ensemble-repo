@@ -44,3 +44,5 @@ Step 3: Parallel execution of AE and IF models.
 Step 4: Decision making via the Dynamic Threshold gate.
 
 Output: Classification (0: Normal, 1: Anomaly).
+
+![HTF-LE System Architecture](images/architecture.png)
